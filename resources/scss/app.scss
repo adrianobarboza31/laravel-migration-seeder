@@ -1,1 +1,21 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+.ab-card{
+    width: calc((100% - 100px) / 5);
+    margin: 10px 10px;
+    background-color: red;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+p{
+    padding: 5px 10px;
+}
+.blue{
+    background-color: blue;
+}
+.azzurro{
+    background-color: aqua;
+}
+.azzscuro{
+    background-color:cornflowerblue;
+}

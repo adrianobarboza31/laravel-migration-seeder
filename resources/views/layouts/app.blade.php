@@ -16,8 +16,8 @@
 </head>
 
 <body>
-
-   <main>
+    @include('partials.header')
+   <main class="azzurro">
    @yield('content')
    </main>
 </body>
